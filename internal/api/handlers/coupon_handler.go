@@ -8,9 +8,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/yourusername/coupon-system/internal/models"
-	"github.com/yourusername/coupon-system/internal/repository"
-	"github.com/yourusername/coupon-system/internal/service"
+	"github.com/Cheertaboi/Billing-system-coupon-microservice/internal/models"
+	"github.com/Cheertaboi/Billing-system-coupon-microservice/internal/repository"
+	"github.com/Cheertaboi/Billing-system-coupon-microservice/internal/service"
 )
 
 // --- Request / Response DTOs ---

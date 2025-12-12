@@ -5,7 +5,7 @@ import (
 	"database/sql"
 	"errors"
 
-	"github.com/yourusername/coupon-system/internal/models"
+	"github.com/Cheertaboi/Billing-system-coupon-microservice/internal/models"
 )
 
 type CouponRepo struct {

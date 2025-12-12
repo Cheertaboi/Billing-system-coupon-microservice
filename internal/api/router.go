@@ -4,8 +4,8 @@ import (
 	"database/sql"
 	"net/http"
 
+	"github.com/Cheertaboi/Billing-system-coupon-microservice/internal/api/handlers"
 	"github.com/go-chi/chi/v5"
-	"github.com/yourusername/coupon-system/internal/api/handlers"
 )
 
 // NewRouter builds the HTTP router for the coupon-service

@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/yourusername/coupon-system/internal/models"
+	"github.com/Cheertaboi/Billing-system-coupon-microservice/internal/models"
 )
 
 // Repos required by service (use interfaces to allow mocking)

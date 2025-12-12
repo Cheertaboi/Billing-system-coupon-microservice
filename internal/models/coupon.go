@@ -8,13 +8,15 @@ type Coupon struct {
 	ExpiryDate      time.Time
 	UsageType       string
 	MinOrderValue   float64
-	ValidFrom       time.Time
-	ValidTo         time.Time
+	ValidFrom       *time.Time
+	ValidTo         *time.Time
 	DiscountType    string
 	DiscountValue   float64
 	MaxUsagePerUser int
 	TargetType      string
 	Terms           string
+	CreatedAt       time.Time
+	UpdatedAt       time.Time
 }
 
 // Optimized read model for validation

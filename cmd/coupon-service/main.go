@@ -10,9 +10,9 @@ import (
 
 	"github.com/go-chi/chi/v5"
 
-	"github.com/yourusername/coupon-system/internal/api"
-	"github.com/yourusername/coupon-system/internal/api/middleware"
-	"github.com/yourusername/coupon-system/pkg/db"
+	"github.com/Cheertaboi/Billing-system-coupon-microservice/internal/api"
+	"github.com/Cheertaboi/Billing-system-coupon-microservice/internal/api/middleware"
+	"github.com/Cheertaboi/Billing-system-coupon-microservice/pkg/db"
 )
 
 func main() {

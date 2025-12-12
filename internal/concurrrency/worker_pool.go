@@ -1,4 +1,4 @@
-package concurrrencypackage concurrency
+package concurrency
 
 import (
 	"context"
